@@ -6,7 +6,7 @@
 [![Issues](https://img.shields.io/github/issues/adsp-polito/2024-P11-SAR.svg)](https://github.com/adsp-polito/2024-P11-SAR/issues)
 [![License](https://img.shields.io/github/license/adsp-polito/2024-P11-SAR)](LICENSE)
 
-The report covering all our findings can be found **[here](https://github.com/adsp-polito/2024-P11-SAR/ADSP_SAR_Team10_AA2425.pdf)**.
+The report covering all our findings can be found **[here](https://github.com/adsp-polito/2024-P11-SAR/blob/main/ADSP_SAR_Team10_AA2425.pdf)**.
 
 ## Contributors
 
