@@ -6,7 +6,7 @@
 [![Issues](https://img.shields.io/github/issues/adsp-polito/2024-P11-SAR.svg)](https://github.com/adsp-polito/2024-P11-SAR/issues)
 [![License](https://img.shields.io/github/license/adsp-polito/2024-P11-SAR)](LICENSE)
 
-The report covering all our findings can be found **[here](https://github.com/adsp-polito/2024-P11-SAR.git/ADSP_SAR_Team10_AA2425.pdf)**.
+The report covering all our findings can be found **[here](https://github.com/adsp-polito/2024-P11-SAR/blob/main/ADSP_SAR_Team10_AA2425.pdf)**.
 
 ## Contributors
 
@@ -37,32 +37,45 @@ This project implements and compares five semantic segmentation models for oil s
 ## Repository Structure
 
 ```
-2024-P11-SAR/
-├───material
-└───training
-    ├───models
-    │   └───results
-    │       ├───CBDnet_PR
-    │       ├───Deeplabv3
-    │       ├───LinkNet
-    │       ├───PSPNet
-    │       └───UNet
-    └───extensions
-        └───results
-            ├───Deeplab_Focused
-            └───Deeplab_Sliding
+.
+├── checkpoints
+│   ├── 1stCheckpoint
+│   ├── 2ndCheckpoint
+│   └── 3rdCheckpoint
+├── extensions
+│   └── results
+│       ├── Deeplab_Focused
+│       └── Deeplab_Sliding
+├── material
+│   └── model_papers
+└── models
+    └── results
+        ├── CBDnet
+        ├── Deeplabv3
+        ├── LinkNet
+        ├── PSPNet
+        └── UNet
 ```
 
 ### Directory Breakdown
 
-- **`material/`**: Contains useful papers and reference materials related to the semantic segmentation models and methodologies used in this project.
 
-- **`training/`**
-  - **Purpose:** Contains all scripts and resources related to training the semantic segmentation models from scratch.
+- **`checkpoints/`**  
+  - **Purpose:** Archives significant project milestones, reflecting key stages of progress and feedback.
+
+- **`extensions/`**  
+  - **Purpose:** Contains proposed training techniques and related evaluation results.  
   - **Contents:**
-    - `models/`: Houses training scripts for each of the five segmentation models.
-    - `extensions/`: Includes training scripts that implement advanced training techniques such as sliding window and focused crop.
-    - `/results/`: Stores the outcomes of the training processes for both standard models and extended training techniques.
+    - **`results/`:** Stores evaluation results images on the test set from experiments conducted within the `extensions` directory.
+
+- **`material/`**  
+  - **Purpose:** Contains useful papers and reference materials related to the semantic segmentation models and methodologies used in this project.  
+  - **Contents:** Includes key literature that underpins the theoretical and practical approaches applied, such as foundational papers for each model and advanced segmentation techniques.
+
+- **`models/`**  
+  - **Purpose:** Contains training scripts and evaluation results for the five segmentation models utilized in the project.  
+  - **Contents:**
+    - **`results/`:** Stores evaluation results images on the test set for each of the five models.
 
 ## Dataset
 
