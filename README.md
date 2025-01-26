@@ -38,7 +38,7 @@ This project implements and compares five semantic segmentation models for oil s
 
 ```
 .
-├── checkpoints
+├── Checkpoints
 │   ├── 1stCheckpoint
 │   ├── 2ndCheckpoint
 │   └── 3rdCheckpoint
@@ -60,7 +60,7 @@ This project implements and compares five semantic segmentation models for oil s
 ### Directory Breakdown
 
 
-- **`checkpoints/`**  
+- **`Checkpoints/`**  
   - **Purpose:** Archives significant project milestones, reflecting key stages of progress and feedback.
 
 - **`extensions/`**  
