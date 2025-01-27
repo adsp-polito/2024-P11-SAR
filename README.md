@@ -214,5 +214,7 @@ This project is licensed under the [Apache 2.0 License](LICENSE).
 
 ## Acknowledgments
 
+This project was supported by **Luca Barco** and **Lorenzo Innocenti** from _LINKS Foundation_. We want to thank them for the opportunity, their time and awesome support throughout the entire project.
+
 - [Links Foundation](https://linksfoundation.com/en/)
 - [Politecnico di Torino](https://www.polito.it)
